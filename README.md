@@ -36,13 +36,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](https://github.com/Fcamposdev/Fcamposdev-.github.io) 
+- [Acesse o projeto finalizado, online](https://fcamposdev.github.io/devlinks-fcamposdevoficial/) 
 
 - [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do meu projeto através [DESSE LINK](https://www.figma.com/file/PavqH5PUDhKmrlE6BhZOZk/fcamposdevoficial?type=design&node-id=3-607&t=ayUcgMWiAZIN7ebZ-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
