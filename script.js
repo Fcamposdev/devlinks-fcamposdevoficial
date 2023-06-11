@@ -16,3 +16,16 @@ function toggleMode() {
     img.setAttribute("alt", "Foto Fabio Avatar Camisa Azul")
   }
 }
+
+function abrirPopup() {
+  document.getElementById('popup').style.display='block';
+}
+
+function abrirExperiencia() {
+  document.getElementById("experiencia").style.display = "block"
+}
+
+function abrirContato() {
+  document.getElementById("experiencia").style.display = "block"
+}
+ 

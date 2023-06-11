@@ -6,7 +6,9 @@
 
 :root {
   --text-color: white;
+  --text-color-popup: black;
   --bg-url: url(./assets/bg-mobile-dark.jpg);
+  --bg-popup: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-houver: rgba(0, 0, 0, 0.02);
@@ -16,7 +18,9 @@
 
 .light {
   --text-color: black;
+  --text-color-popup: white;
   --bg-url: url(./assets/bg-mobile-light.jpg);
+  --bg-popup: url(./assets/bg-mobile-dark.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-houver: rgba(0, 0, 0, 0.02);
@@ -128,6 +132,89 @@ ul li a {
 ul li a:hover {
   background: var(--surface-color-houver);
   border: 1.5px solid var(--text-color);
+}
+
+.popup {
+  position: absolute;
+  display: flex;
+  width: 90%;
+  max-width: 588px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px 24px;
+  background: var(--bg-popup) no-repeat top center/cover;
+  border-radius: 8px;
+  z-index: 1;
+  border: 1px solid var(--bg-popup);
+  background: var(--bg-popup) no-repeat top center/cover;
+  -webkit-text-fill-color: var(--text-color-popup);
+  display: none;
+  transform: translateY(-50%);
+  animation: slide-back 0.2s;
+}
+
+.experiencia {
+  position: absolute;
+  display: flex;
+  width: 90%;
+  max-width: 588px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px 24px;
+  background: var(--bg-popup) no-repeat top center/cover;
+  border-radius: 8px;
+  z-index: 1;
+  border: 1px solid var(--bg-popup);
+  background: var(--bg-popup) no-repeat top center/cover;
+  -webkit-text-fill-color: var(--text-color-popup);
+  display: none;
+  transform: translateY(-50%);
+  animation: slide-back 0.2s;
+}
+
+.contato {
+  position: absolute;
+  display: flex;
+  width: 90%;
+  max-width: 588px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px 24px;
+  background: var(--bg-popup) no-repeat top center/cover;
+  border-radius: 8px;
+  z-index: 1;
+  border: 1px solid var(--bg-popup);
+  background: var(--bg-popup) no-repeat top center/cover;
+  -webkit-text-fill-color: var(--text-color-popup);
+  display: none;
+  transform: translateY(-50%);
+  animation: slide-back 0.2s;
+}
+
+.confirmacao {
+  background: var(--bg-url) no-repeat top center/cover;
+  font-size: 12pt;
+  text-decoration: none;
+  justify-content: center;
+  -webkit-text-fill-color: var(--text-color);
+  width: 100px;
+  height: 40px;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: center;
+  outline: none;
+  transition: all 0.4s ease-out;
+}
+
+.confirmacao:hover {
+  font-size: 18pt;
+  background: var(--bg-url) no-repeat top center/cover;
+  -webkit-text-fill-color: var(--text-color);
+  transform: scale(1.1);
 }
 
 /* social links */

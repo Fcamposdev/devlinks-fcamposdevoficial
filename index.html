@@ -3,7 +3,10 @@
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,21 +24,80 @@
         <button></button>
         <span></span>
       </div>
-      
+
       <ul>
         <li>
+          <div id="popup" class="popup">
+            <h2>about me / Sobre mim</h2>
+            <br />
+            <p>
+              Hello, I'm Fábio studying systems analysis and development -
+              Centro Universitário Senac - São Paulo.<br>
+              Currently working as a driver for Audio-Visual production
+              companies, in the rental production sector with Marcela Zatz.<br>
+              I am married to Viviane and we live in São Paulo. <br><br>
+              Ola, Sou Fábio estudante em análise e desenvolvimentos de sistemas - Centro Universitário Senac - São Paulo.<br>
+              Atualmente trabalhando como motorista para produtoras do
+              Audio-Visual, no setor de produção de locação com Marcela Zatz.<br>
+              Sou casado com Viviane e moramos em são Paulo.
+            </p>
+            <br />
+            <a class="confirmacao" href="index.html">Ok</a>
+          </div>
+          <a href="javascript: abrirPopup();">Um pouco da minha História</a>
+        </li>
+
+        <li>
+          <div id="experiencia" class="experiencia">
+            <h2>Professional experience / Experiência Profissional</h2>
+            <br>
+            <p>
+              Audiovisual rental production.<br>
+              Find locations to carry out audio-video projects (Movies, Series,
+              Documentaries, Advertising and more).<br><br>
+              Some TV stations I've worked with:<br>
+              SBT, Globo-SP, Globo-RJ, Rede Record, Gazeta-SP, Band-SP.
+              <br><br>
+              Some producers I've worked with:<br>
+              Ó2 films, Boutique films, Conspiração films, Floresta production
+              company, Gullane Entretenimento, Pródigo Films, Coração da Selva,
+              Kerosene films, Format productions and content, Glaz, Mixer
+              films.<br><br>
+              Some Publishers I've Worked With:<br>
+              Editora Caras, Editora Abril, Sigla Editora, Vogue.<br><br>
+              Produção de locação audiovisual.<br>
+              Encontrar locações para realização de projetos audio-vidual
+              (Filmes, Séries, Documentários, Publicidade e mais).<br><br>
+              algumas emissoras de TV que ja trabalhei:<br>
+              SBT, Globo-SP, Globo-RJ, Rede Record, Gazeta-SP, Band-SP.
+              <br><br>
+              Algumas produtoras que ja trabalhei:<br>
+              Ó2 filmes, Boutique filmes, Conspiração filmes, produtora
+              Floresta, Gullane Entretenimento, Pródigo Films, Coração da Selva,
+              Querosene filmes, Formata produções e conteúdo, Glaz, Mixer
+              films.<br><br>
+              Algumas Editoras que Ja Trabalhei:<br>
+              Editora Caras, Editora Abril, Sigla Editora, Vogue.
+            </p>
+            <br>
+            <a class="confirmacao" href="index.html">Ok</a>
+          </div>
+          <a href="javascript: abrirExperiencia();">Profissional</a>
+        </li>
+        <!-- <li>
           <a href="#">Inscrever-se no NLW</a>
         </li>
         <li>
           <a href="#">Baixar meu e-book</a>
-        </li>
+        </li> -->
         <li>
           <a href="https://github.com/Fcamposdev" target="_blank"
             >Ver meu portifolio</a
           >
         </li>
         <li>
-          <a href="#">Conheça</a>
+          <a class="whats" href="https://wa.me/5511947395222?text=Olá!%20podemos%20te%20ajudar?"
+            target="_blank">Whatsapp</a>
         </li>
       </ul>
       <div id="social-links">
@@ -45,19 +107,32 @@
         <a href="https://www.instagram.com/fcamposdev/" target="_blank">
           <ion-icon name="logo-instagram"></ion-icon>
         </a>
-        <a href="https://www.linkedin.com/in/fabio-dev-b84297279/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/fabio-dev-b84297279/"
+          target="_blank"
+        >
           <ion-icon name="logo-linkedin"></ion-icon>
         </a>
-        <a href="https://www.youtube.com/channel/UCnKgcD2Yhtpa-Eqxk6qTJhA" target="_blank">
+        <a
+          href="https://www.youtube.com/channel/UCnKgcD2Yhtpa-Eqxk6qTJhA"
+          target="_blank"
+        >
           <ion-icon name="logo-youtube"></ion-icon>
         </a>
       </div>
       <footer>
-        Feito com ♥ pela <a href="https://rocketseat.com.br/" target="_blank">Rocketseat</a> 
+        Feito com ♥ pela
+        <a href="https://rocketseat.com.br/" target="_blank">Rocketseat</a>
       </footer>
     </div>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
 
     <script src="./script.js"></script>
   </body>
